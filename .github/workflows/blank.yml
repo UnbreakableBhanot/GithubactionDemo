@@ -8,3 +8,4 @@ jobs:
         run: 
           echo "Hello this is ${{ vars.MY_NAME }}"
           echo "Hello this is ${{ secrets.dockerPassword }}"
+          echo "so this was about git actions variables and secrets"
